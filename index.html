@@ -5,16 +5,20 @@
 <title>Documento sin t&iacute;tulo</title>
 <link rel="stylesheet" href="css/Estilo_unad.css" />
 </head>
-
+<script>
+var f = new Date();
+document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+document.getElementById("dia").values=f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear()
+</script>
 <body>
-
+<center><a href="https://www.cerotec.net/estadisticas-112507/jamrx115.github.io" title="visitas de mi web"><img src="https://www.cerotec.net/contador.php?t=17&s=1&i=112507" alt="Contador de visitas y estadísticas"></a> <br><a href='' style='font-size:12px;' ></a></center>
 <header>
 			<hgroup>
 				<h1 align="center"><img src="img/logoUNAD.png" width="441" height="100" /></h1>
 				<h1 align="center">Curso programacion WEB</h1>
 				<h2 align="center">OVI Trabajo Colaborativo </h2>
 			</hgroup>
-		</header>
+</header>
 <nav>
 <ul>
     <li><a title="Opcion 1" href="#">Inicio</a></li>
@@ -28,7 +32,7 @@
 <article>
  <header>
 	<time datetime="2017-10-27" pubdate>
-		<span>Oct</span> 27	</time>
+		<span><div id="mes">Oct</div></span> <div id="dia">27</div>	</time>
 	<h1>
 		<a href="#" title="Link to this post" rel="bookmark">Programacion WEB</a>	</h1>
 </header>
@@ -44,7 +48,19 @@ a través de un navegador de internet.</p>
 				<p align="justify"><img src="img/php.png" width="138" height="99" /><acronym title="PHP: Hypertext Preprocessor">PHP</acronym>&nbsp;(acr&oacute;nimo recursivo de&nbsp;<em>PHP: Hypertext Preprocessor</em>) es un lenguaje de c&oacute;digo abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
 				<p align="justify"><img src="img/html.png" width="138" height="99" />Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcci&oacute;n m&aacute;s b&aacute;sico de una p&aacute;gina web y se usa para crear y representar visualmente una p&aacute;gina web</p>
 				<p align="justify"><img src="img/mysql.png" width="138" height="99" /> Sistema de gesti&oacute;n de bases de datos relacional desarrollado bajo licencia dual GPL/Licencia comercial por Oracle Corporation y est&aacute; considerada como la base datos open source m&aacute;s popular del mundo,&#8203;&#8203; y una de las m&aacute;s populares en general junto a Oracle y Microsoft SQL Server</p>
+			    
 			</section>
 </article>
+<table width="200" border="1">
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table>
 </body>
 </html>
